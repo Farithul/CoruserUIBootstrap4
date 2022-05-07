@@ -12,10 +12,27 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body class="container">
-
+    
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+           <a class="navbar-brand" href="#">Ristorante Con Fusion</a>
+           <div class="collapse navbar-collapse" id="Navbar">
+                 <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./aboutus.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>  
+            </div>          
+        </div>
+    </nav>
 <br><br><br>
     <header class="card jumbotron" style="background-color:blueviolet;color: white;">
         <div class="container">
@@ -29,6 +46,10 @@
         </div>
     </header>
 
+    <ol class="col-12 breadcrumb">
+        <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+        <li class="breadcrumb-item active">About Us</li>
+    </ol>
     <div>
         <div class="container">
             <div class="container">
